@@ -104,4 +104,17 @@ getJoke();
   }
 }
 // run the function
-getJoke(); */
+getJoke(); 
+
+///Changes made:
+// Renamed wantsJoke → userResponse
+// Renamed response → jokeResponse
+// Used object destructuring: { setup, punchline } = await jokeResponse.json()
+// Used .trim() to handle extra whitespace in the user input
+// Minor message tweaks and renamed error variable to err
+// The output and behavior will be identical to your original code — just written a bit differently. Let me know if you'd like to see another variation or extend this into a webpage!
+
+
+
+
+*/
